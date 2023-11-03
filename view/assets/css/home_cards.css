@@ -1,0 +1,208 @@
+
+/* CSS PARA LAS TARJETAS HOME */
+
+.cards-list {
+    background-color: #fbffff;
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  
+  .card1 {
+    margin: 30px auto;
+    width: 130px;
+    height: 130px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .card1 .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+  
+  .card1 .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    /* object-fit: cover; */
+    object-fit: scale-down;
+  }
+  
+  .card1 .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+  }
+  
+  .card1:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+
+  .card2 {
+    margin: 30px auto;
+    width: 130px;
+    height: 130px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .card2 .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+  
+  .card2 .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    /* object-fit: cover; */
+    object-fit: scale-down;
+  }
+  
+  .card2 .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+  }
+  
+  .card2:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+
+  .card3 {
+    margin: 30px auto;
+    width: 130px;
+    height: 130px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .card3 .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+  
+  .card3 .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    /* object-fit: cover; */
+    object-fit: scale-down;
+  }
+  
+  .card3 .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+  }
+  
+  .card3:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+
+  .card4 {
+    margin: 30px auto;
+    width: 130px;
+    height: 130px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .card4 .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+  
+  .card4 .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    /* object-fit: cover; */
+    object-fit: scale-down;
+  }
+  
+  .card4 .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+  }
+  
+  .card4:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  .title-white {
+    color: white;
+  }
+  
+  .title-black {
+    padding-top: 10%;
+    color: black;
+  }
+  
+  .title-black p {
+    font-size: 80%;
+    font: bold sans-serif;
+  }
+  
+  @media all and (max-width: 500px) {
+    .card-list {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }
+  
+  #top {
+    display: table-cell;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #07374f;
+    vertical-align:middle;
+  }
+  
+  #top h2{
+  text-shadow: 2px 2px #d71020;
+    text-align: center;
+    color: #fffefe;
+    font-family:"Impact";
+  }

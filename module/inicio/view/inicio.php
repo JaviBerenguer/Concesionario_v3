@@ -1,0 +1,1 @@
+<img class="img_inicio" src="view/assets/img/portfolio/skyline.jpg">
